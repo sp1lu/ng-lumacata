@@ -1,0 +1,10 @@
+<div class="menu">
+    @for (category of menu; track category.name) {
+    <h2>{{category.name | titlecase}}</h2>
+    <div>
+        @for (dish of category.dishes; track dish.id) {
+        <app-dish [dish]="dish"></app-dish>
+        }
+    </div>
+    }
+</div>

@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "ng-lumacata",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

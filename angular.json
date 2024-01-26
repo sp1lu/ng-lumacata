@@ -94,6 +94,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "ng-lumacata:build:production",
+              "serveTarget": "ng-lumacata:serve:production"
+            },
+            "development": {
+              "buildTarget": "ng-lumacata:build:development",
+              "serveTarget": "ng-lumacata:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

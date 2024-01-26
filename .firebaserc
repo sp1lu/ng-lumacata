@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "ng-lumacata": {
+      "hosting": {
+        "ng-lumacata": [
+          "ng-lumacata"
+        ]
+      }
+    },
+    "ng-lumacata-d93b6": {
+      "hosting": {
+        "ng-lumacata": [
+          "ng-lumacata-d93b6"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ng-lumacata-d93b6"
+  }
+}
