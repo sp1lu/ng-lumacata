@@ -13,12 +13,12 @@ import { TitleCasePipe } from '@angular/common';
 export class MenuComponent {
   public menu: any;
 
-  constructor(public DataService: DataService) {
+  constructor(public dataService: DataService) {
 
   }
 
   async ngOnInit() {
-    this.menu = await this.DataService.getMenu();
+    this.menu = await this.dataService.getMenu();
     console.log(this.menu);    
   }
 }
