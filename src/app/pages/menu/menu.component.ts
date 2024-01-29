@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { DataService } from '../../services/data.service';
+import { MenuService } from '../../services/menu.service';
 import { DishComponent } from '../../components/dish/dish.component';
 import { TitleCasePipe } from '@angular/common';
+import { Category } from '../../models/category.model';
 
 @Component({
   selector: 'app-menu',
@@ -11,14 +12,11 @@ import { TitleCasePipe } from '@angular/common';
   styleUrl: './menu.component.scss'
 })
 export class MenuComponent {
-  public menu: any;
+  public menu!: Category[];
 
-  constructor(public dataService: DataService) {
-
-  }
+  constructor(public MenuService: MenuService) { }
 
   async ngOnInit() {
-    this.menu = await this.dataService.getMenu();
-    console.log(this.menu);    
+    this.menu = await this.MenuService.getMenu();
   }
 }

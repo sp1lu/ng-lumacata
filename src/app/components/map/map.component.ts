@@ -16,7 +16,7 @@ export class MapComponent {
   constructor(public mapService: MapService) {
   }
 
-  ngAfterViewInit(): void {
+  ngOnInit(): void {
     this.initMap();
   }
 
@@ -30,12 +30,24 @@ export class MapComponent {
 
     this.geoJsonData = await this.mapService.getData();
     Leaflet.geoJSON(this.geoJsonData, {
-      pointToLayer: (feature, latLng) => Leaflet.circle(latLng),
+      pointToLayer: (feature, latLng) => this.createMarker(feature, latLng),
       onEachFeature: this.createPopup
     }).addTo(this.map);
   }
 
-  private createPopup(feature: any, layer: Leaflet.Layer) {
+  private createMarker(feature: any, latLng: Leaflet.LatLng): Leaflet.Marker {
+    const iconName = feature.properties.icon;
+    let icon = Leaflet.icon({
+      iconUrl: `../../assets/markers/${iconName}-icon.svg`,
+      iconSize: [24, 40],
+      iconAnchor: [12, 40],
+      popupAnchor: [0, -48]
+    });
+
+    return new Leaflet.Marker(latLng, { icon: icon });
+  }
+
+  private createPopup(feature: any, layer: Leaflet.Layer): void {
     if (!feature.properties && !feature.properties.title && !feature.properties.map) return;
 
     const popupContent =
@@ -46,8 +58,7 @@ export class MapComponent {
       </div>
       `
       ;
-
-    layer.bindPopup(feature.properties.title);
+      
     layer.bindPopup(popupContent);
   }
 }
