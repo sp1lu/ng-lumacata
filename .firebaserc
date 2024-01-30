@@ -1,4 +1,8 @@
 {
+  "projects": {
+    "default": "ng-lumacata",
+    "ng-lumacata-prod": "ng-lumacata-d93b6"
+  },
   "targets": {
     "ng-lumacata": {
       "hosting": {
@@ -15,7 +19,5 @@
       }
     }
   },
-  "projects": {
-    "default": "ng-lumacata-d93b6"
-  }
+  "etags": {}
 }
