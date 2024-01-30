@@ -1,0 +1,26 @@
+:host {
+    color: white;
+    text-transform: uppercase;
+    font-size: .5rem;
+}
+
+.eat {
+    position: fixed;
+    bottom: 32px;
+    left: 16px;
+    transform: rotate(-90deg);
+}
+
+.drink {
+    position: fixed;
+    top: 32px;
+    left: 16px;
+    transform: rotate(-90deg);
+}
+
+.fun {
+    position: fixed;
+    bottom: 32px;
+    right: 16px;
+    transform: rotate(-90deg);
+}
