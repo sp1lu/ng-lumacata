@@ -9,7 +9,6 @@
     cursor: pointer;
     background-color: var(--red);
     border-radius: 8px;
-    padding: 8px;
 }
 
 #checkbox {
@@ -21,6 +20,7 @@
     position: relative;
     width: 24px;
     height: 24px;
+    padding: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,13 +56,11 @@
 }
 
 #checkbox:checked+.toggle #bar1 {
-    width: 100%;
     transform: rotate(45deg);
     transition-duration: .5s;
 }
 
 #checkbox:checked+.toggle #bar3 {
-    width: 100%;
     transform: rotate(-45deg);
     transition-duration: .5s;
 }
