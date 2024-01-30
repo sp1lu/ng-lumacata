@@ -1,8 +1,20 @@
-<div>
+<div class="logo">
+    <a href="/" class="logo-text">
+        <span class="first-row">LUMA</span>
+        <span class="second-row">CATA</span>
+        <span class="year">2024</span>
+    </a>
+</div>
+<div class="menu">
     <ul>
-        <li><a routerLink="/">Homepage</a></li>
-        <li><a routerLink="/menu">Menu</a></li>
-        <li><a routerLink="/programma">Programma</a></li>
-        <li><a routerLink="/dove-siamo">Dove siamo</a></li>
+        <li><a routerLink="/" (click)="closeNav()">Homepage</a></li>
+        <li><a routerLink="/menu" (click)="closeNav()">Menu</a></li>
+        <li><a routerLink="/programma" (click)="closeNav()">Programma</a></li>
+        <li><a routerLink="/dove-siamo" (click)="closeNav()">Dove siamo</a></li>
     </ul>
+</div>
+<div class="contacts">
+    <a href="https://www.facebook.com/profile.php?id=100068877053488" target="_blank">
+        <img src="${facebook}" class="fb-icon">
+    </a>
 </div>

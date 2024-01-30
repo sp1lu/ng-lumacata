@@ -1,6 +1,6 @@
 <div id="wrapper">
-    <input type="checkbox" id="checkbox">
-    <label for="checkbox" class="toggle" (click)="burgerClick()">
+    <input type="checkbox" id="checkbox" [checked]="isOpen" (change)="onCheckboxChange($event)">
+    <label for="checkbox" class="toggle">
         <div class="bars" id="bar1"></div>
         <div class="bars" id="bar2"></div>
         <div class="bars" id="bar3"></div>

@@ -16,17 +16,25 @@ export class NavComponent {
 
   constructor(private communicationService: CommunicationService, private renderer: Renderer2, private el: ElementRef) {
     this.isOpen = false;
-    this.subscription = this.communicationService.toggleNav$.subscribe((isOpen) => {
+    this.subscription = new Subscription();
+  }
+
+  ngOnInit(): void {
+    this.subscription = this.communicationService.toggleNav$.subscribe((isOpen: boolean) => {
       this.isOpen = isOpen;
       this.toggleNav();
     });
   }
 
-  ngOnDestroy() {
+  ngOnDestroy(): void {
     this.subscription.unsubscribe();
   }
 
   toggleNav(): void {
     this.isOpen ? this.renderer.addClass(this.el.nativeElement, 'is-open') : this.renderer.removeClass(this.el.nativeElement, 'is-open');
+  }
+
+  closeNav(): void {
+    this.communicationService.toggleNav(false);
   }
 }
