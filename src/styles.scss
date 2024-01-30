@@ -2,3 +2,80 @@
     font-family: 'Brice';
     src: url('./assets/fonts/Brice-BoldSemiExpanded.ttf');
 }
+
+:root {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+    font-weight: 400;
+    --beige: #E1D3CC;
+    --red: #AA2838;
+    --green: #235643;
+    --orange: #DC983C;
+}
+
+body {
+    margin: 0;
+    background-color: var(--beige);
+}
+
+.noise {
+    animation: NoiseGenerate 2s steps(2) infinite;
+    background-image: url('./assets//images//noise.png');
+    background-position: 50%;
+    bottom: -40vw;
+    height: auto;
+    left: -40vw;
+    opacity: .4;
+    pointer-events: none;
+    position: fixed;
+    right: -40vw;
+    top: -40vw;
+    width: auto;
+    z-index: 999999;
+}
+
+@keyframes NoiseGenerate {
+    0% {
+        transform: translate3d(0, 9rem, 0);
+    }
+
+    10% {
+        transform: translate3d(-1rem, -4rem, 0);
+    }
+
+    20% {
+        transform: translate3d(-8rem, 2rem, 0);
+    }
+
+    30% {
+        transform: translate3d(9rem, -9rem, 0);
+    }
+
+    40% {
+        transform: translate3d(-2rem, 7rem, 0);
+    }
+
+    50% {
+        transform: translate3d(-9rem, -4rem, 0);
+    }
+
+    60% {
+        transform: translate3d(2rem, 6rem, 0);
+    }
+
+    70% {
+        transform: translate3d(7rem, -8rem, 0);
+    }
+
+    80% {
+        transform: translate3d(-9rem, 1rem, 0);
+    }
+
+    90% {
+        transform: translate3d(6rem, -5rem, 0);
+    }
+
+    100% {
+        transform: translate3d(-7rem, 0, 0);
+    }
+}

@@ -1,3 +1,49 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 div {
     font-family: 'Brice';
+    text-align: center;
+}
+
+h1 {
+    font-size: 8rem;
+    line-height: 7rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    color: var(--green);
+    margin: 0;
+}
+
+.first-row,
+.second-row {
+    display: block;
+    color: var(--orange);
+}
+
+.year {
+    display: block;
+    color: var(--red);
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        font-size: 1.25rem;    
+    }
+
+    h1 {
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
 }
