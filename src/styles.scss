@@ -4,9 +4,6 @@
 }
 
 :root {
-    font-family: 'Roboto Slab', serif;
-    line-height: 1.5;
-    font-weight: 400;
     --beige: #E1D3CC;
     --red: #AA2838;
     --green: #235643;
@@ -14,8 +11,26 @@
 }
 
 body {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+    font-weight: 400;
     margin: 0;
     background-color: var(--beige);
+}
+
+h1,
+h2 {
+    color: var(--orange);
+    font-family: 'Brice';
+    line-height: 2rem;
+}
+
+h1 {
+    margin: 0 0 48px 0;
+}
+
+h2 {
+    margin: 0 0 16px 0;
 }
 
 .noise {

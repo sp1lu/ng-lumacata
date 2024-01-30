@@ -1,0 +1,48 @@
+h1,
+h2 {
+    color: var(--orange);
+    font-family: 'Brice';
+    line-height: 2rem;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 48px 0;
+}
+
+h2 {
+    margin: 0 0 16px 0;
+}
+
+b {
+    color: var(--orange);
+}
+
+a {
+    color: var(--orange);
+    font-weight: 500;
+}
+
+ul {
+    margin: 0;
+}
+
+.page {
+    background-color: var(--red);
+    color: var(--beige);
+}
+
+.directions {
+    max-width: 768px;
+    margin: auto;
+    padding: 40px 4%;
+}
+
+.vehicle {
+    margin: 0 0 32px 0;
+}
+
+.vehicle:last-child {
+    margin-bottom: 0;
+}

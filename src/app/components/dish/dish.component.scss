@@ -1,3 +1,24 @@
+:host {
+    display: block;
+    margin: 0 0 8px 0;
+}
+
 .dish {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+}
+
+.sunday-only {
+    font-family: 'Brice';
+    color: var(--red);
+    margin: 0 0 0 8px;
+}
+
+p {
+    margin: 0;
 }

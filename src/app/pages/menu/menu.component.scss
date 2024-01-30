@@ -1,0 +1,35 @@
+h1, h2 {
+    font-family: 'Brice';
+    color: var(--orange);
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    max-width: 576px;
+    margin: auto;
+    padding: 40px 4%;
+}
+
+.info {
+    font-size: .9rem;
+    max-width: 576px;
+    margin: 0 0 40px 0;
+}
+
+.sunday-only {
+    font-family: 'Brice';
+    color: var(--red);
+}
+
+.course {
+    margin: 0 0 40px 0;   
+}
+
+.course:last-child {
+    margin-bottom: 0;
+}

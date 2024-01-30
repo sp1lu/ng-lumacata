@@ -1,0 +1,25 @@
+:host {
+    background-color: var(--green);
+    color: var(--beige);
+    min-height: 100vh;
+    display: block;
+}
+
+h1, h2 {
+    font-family: 'Brice';
+    color: var(--orange);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 16px 0;
+}
+
+
+.program {
+    max-width: 576px;
+    margin: auto;
+    padding: 40px 4%;
+}
+
+.date {
+    margin: 0 0 64px 0;
+}
