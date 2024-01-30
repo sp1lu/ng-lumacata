@@ -1,11 +1,13 @@
+<app-header />
 <div class="program">
     <h1>Programma</h1>
     @for (item of program; track item.date) {
     <div class="date">
         <h2 class="title">{{item.date}}</h2>
         @for (event of item.events; track event.date) {
-            <app-experience [experience]="event"></app-experience>
+            <app-experience [experience]="event" />
         }
     </div>
     }
 </div>
+<app-footer />

@@ -7,10 +7,9 @@
 </div>
 <div class="menu">
     <ul>
-        <li><a routerLink="/" (click)="closeNav()">Homepage</a></li>
-        <li><a routerLink="/menu" (click)="closeNav()">Menu</a></li>
-        <li><a routerLink="/programma" (click)="closeNav()">Programma</a></li>
-        <li><a routerLink="/dove-siamo" (click)="closeNav()">Dove siamo</a></li>
+        <li><a routerLink="/menu" (click)="closeNav()">{{'Menu' | uppercase}}</a></li>
+        <li><a routerLink="/programma" (click)="closeNav()">{{'Programma' | uppercase}}</a></li>
+        <li><a routerLink="/dove-siamo" (click)="closeNav()">{{'Dove siamo' | uppercase}}</a></li>
     </ul>
 </div>
 <div class="contacts">

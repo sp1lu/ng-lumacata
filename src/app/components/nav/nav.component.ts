@@ -2,11 +2,12 @@ import { Component, ElementRef, Renderer2 } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { CommunicationService } from '../../services/communication.service';
 import { Subscription } from 'rxjs';
+import { UpperCasePipe } from '@angular/common';
 
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, UpperCasePipe],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.scss'
 })

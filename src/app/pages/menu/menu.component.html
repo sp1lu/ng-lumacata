@@ -1,3 +1,4 @@
+<app-header />
 <div class="menu">
     <h1>Menu</h1>
     <p class="info">I piatti contrassegnati da una lettera <span class="sunday-only">D</span> sono disponibili solo durante il pranzo di domenica 16 giugno.</p>
@@ -5,8 +6,9 @@
     <h2>{{category.name | titlecase}}</h2>
     <div class="course">
         @for (dish of category.dishes; track dish.name) {
-        <app-dish [dish]="dish"></app-dish>
+        <app-dish [dish]="dish" />
         }
     </div>
     }
 </div>
+<app-footer />

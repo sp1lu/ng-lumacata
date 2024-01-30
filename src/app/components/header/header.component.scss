@@ -1,0 +1,22 @@
+.header {
+    padding: 24px 0 0 0;
+}
+
+.logo-text {
+    font-family: 'Brice';
+    text-align: center;
+    line-height: 1rem;
+    margin: 0;
+    text-decoration: none;
+}
+
+.first-row,
+.second-row {
+    display: block;
+    color: var(--orange);
+}
+
+.year {
+    display: block;
+    color: var(--red);
+}
