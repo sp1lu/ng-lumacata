@@ -5,8 +5,8 @@ export class Experience {
     title: string;
     desc: string;
 
-    constructor(date: Timestamp, title: string, desc: string) {
-        this.date = this.formaItalianDate(this.fromTimestampToDate(date));
+    constructor(date: string, title: string, desc: string) {
+        this.date = date;
         this.title = title;
         this.desc = desc;
     }

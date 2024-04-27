@@ -1,0 +1,72 @@
+[
+    {
+        "name": "ristorante",
+        "dishes": [
+            {
+                "name": "Porzione di lumache",
+                "price": 12,
+                "sundayOnly": false
+            },
+            {
+                "name": "Ravioli au tuccu",
+                "price": 5,
+                "sundayOnly": true
+            },
+            {
+                "name": "Polpettone di verdure",
+                "price": "3.00",
+                "sundayOnly": true
+            },
+            {
+                "name": "Trofie al pesto",
+                "price": "5.00",
+                "sundayOnly": true
+            }
+        ]
+    },
+    {
+        "name": "pizzeria",
+        "dishes": [
+            {
+                "name": "Margherita",
+                "price": 5,
+                "sundayOnly": false
+            },
+            {
+                "name": "Quattro stagioni",
+                "price": 6.5,
+                "sundayOnly": false
+            }
+        ]
+    },
+    {
+        "name": "dolci",
+        "dishes": [
+            {
+                "name": "Crostata marmellata o cioccolato",
+                "price": "2.00",
+                "sundayOnly": false
+            },
+            {
+                "name": "Torta della nonna",
+                "price": 2,
+                "sundayOnly": true
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "dishes": [
+            {
+                "name": "Acqua naturale/frizzante 0.5L",
+                "price": 0.5,
+                "sundayOnly": false
+            },
+            {
+                "name": "Acqua naturale/frizzante 1.5L",
+                "price": 2,
+                "sundayOnly": false
+            }
+        ]
+    }
+]

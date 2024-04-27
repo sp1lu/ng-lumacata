@@ -16,6 +16,11 @@ body {
     font-weight: 400;
     margin: 0;
     background-color: var(--beige);
+    scrollbar-width: thin;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
 }
 
 h1,

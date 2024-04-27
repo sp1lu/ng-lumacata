@@ -5,8 +5,8 @@ export class Schedule {
     date: string;
     events: Experience[];
 
-    constructor(date: Timestamp, events: Experience[]) {
-        this.date = this.formaItalianDate(this.fromTimestampToDate(date));
+    constructor(date: string, events: Experience[]) {
+        this.date = date;
         this.events = events;
     }
 

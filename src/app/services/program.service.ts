@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Firestore, collection, getDocs, orderBy, query } from '@angular/fire/firestore';
 import { Schedule } from '../models/schedule.model';
 import { Experience } from '../models/experience.model';
 
@@ -7,13 +6,18 @@ import { Experience } from '../models/experience.model';
   providedIn: 'root'
 })
 export class ProgramService {
+  private dataUrl: string = '../assets/json/program.json';
 
-  constructor(private firestore: Firestore) { }
+  constructor() { }
 
   async getProgram(): Promise<any> {
-    const programQuery = query(collection(this.firestore, 'program'), orderBy('date'));
-    const programSnapshot = await getDocs(programQuery);
-    const program = this.parseProgram(programSnapshot.docs.map(events => events.data()));
+    // const programQuery = query(collection(this.firestore, 'program'), orderBy('date'));
+    // const programSnapshot = await getDocs(programQuery);
+    // const program = this.parseProgram(programSnapshot.docs.map(events => events.data()));
+
+    let response: any = await fetch(this.dataUrl);
+    let json: any = await response.json();
+    const program: Schedule[] = this.parseProgram(json);
     return program;
   }
 
