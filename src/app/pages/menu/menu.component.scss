@@ -3,9 +3,6 @@ h1, h2 {
     color: var(--orange);
     text-transform: uppercase;
     margin: 0 0 16px 0;
-}
-
-h1 {
     text-align: center;
 }
 
@@ -19,6 +16,7 @@ h1 {
     font-size: .9rem;
     max-width: 576px;
     margin: 0 0 40px 0;
+    text-align: center;
 }
 
 .sunday-only {

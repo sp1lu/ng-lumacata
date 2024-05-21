@@ -8,17 +8,62 @@
                 "sundayOnly": false
             },
             {
-                "name": "Ravioli au tuccu",
+                "name": "Bistecca con patatine fritte",
                 "price": 5,
+                "sundayOnly": false
+            },
+            {
+                "name": "Salsiccia con patatine fritte",
+                "price": "3.00",
+                "sundayOnly": false
+            },
+            {
+                "name": "Patatine fritte",
+                "price": "5.00",
+                "sundayOnly": false
+            },
+            {
+                "name": "Peperonata",
+                "price": "5.00",
+                "sundayOnly": false
+            },
+            {
+                "name": "Polpettone",
+                "price": "5.00",
+                "sundayOnly": false
+            },
+            {
+                "name": "Formaggi",
+                "price": "5.00",
+                "sundayOnly": false
+            },
+            {
+                "name": "Taglierini sugo di carne",
+                "price": "5.00",
                 "sundayOnly": true
             },
             {
-                "name": "Polpettone di verdure",
-                "price": "3.00",
+                "name": "Taglierini sugo di funghi",
+                "price": "5.00",
+                "sundayOnly": true
+            },
+            {
+                "name": "Ravioli sugo di carne",
+                "price": "5.00",
+                "sundayOnly": true
+            },
+            {
+                "name": "Ravioli sugo di funghi",
+                "price": "5.00",
                 "sundayOnly": true
             },
             {
                 "name": "Trofie al pesto",
+                "price": "5.00",
+                "sundayOnly": true
+            },
+            {
+                "name": "Lingua in salsa verde",
                 "price": "5.00",
                 "sundayOnly": true
             }
@@ -28,13 +73,33 @@
         "name": "pizzeria",
         "dishes": [
             {
-                "name": "Margherita",
-                "price": 5,
+                "name": "Pizza Margherita",
+                "price": "5.00",
                 "sundayOnly": false
             },
             {
-                "name": "Quattro stagioni",
-                "price": 6.5,
+                "name": "Pizza con prosciutto",
+                "price": "5.00",
+                "sundayOnly": false
+            },
+            {
+                "name": "Pizza con i funghi",
+                "price": "5.00",
+                "sundayOnly": false
+            },
+            {
+                "name": "Pizza con prosciutto e funghi",
+                "price": "5.00",
+                "sundayOnly": false
+            },
+            {
+                "name": "Pizza con salsiccia",
+                "price": "5.00",
+                "sundayOnly": false
+            },
+            {
+                "name": "Pizza con salame piccante",
+                "price": "5.00",
                 "sundayOnly": false
             }
         ]
@@ -43,28 +108,8 @@
         "name": "dolci",
         "dishes": [
             {
-                "name": "Crostata marmellata o cioccolato",
+                "name": "Crostata con marmellata",
                 "price": "2.00",
-                "sundayOnly": false
-            },
-            {
-                "name": "Torta della nonna",
-                "price": 2,
-                "sundayOnly": true
-            }
-        ]
-    },
-    {
-        "name": "bar",
-        "dishes": [
-            {
-                "name": "Acqua naturale/frizzante 0.5L",
-                "price": 0.5,
-                "sundayOnly": false
-            },
-            {
-                "name": "Acqua naturale/frizzante 1.5L",
-                "price": 2,
                 "sundayOnly": false
             }
         ]

@@ -3,7 +3,7 @@
         "date": "giovedì 13 giugno",
         "events": [
             {
-                "date": "18:00",
+                "date": "19:00",
                 "title": "Apertura stand",
                 "desc": "Inizio della serata con l'apertura degli stand gastronomici"
             },
@@ -14,7 +14,7 @@
             },
             {
                 "date": "21:30",
-                "title": "Orchestra Alta Marea",
+                "title": "Armando & Co.",
                 "desc": "Musica dal vivo"
             }
         ]
@@ -23,13 +23,13 @@
         "date": "venerdì 14 giugno",
         "events": [
             {
-                "date": "18:00",
+                "date": "19:00",
                 "title": "Apertura stand",
                 "desc": "Inizio della serata con l'apertura degli stand gastronomici"
             },
             {
                 "date": "21:30",
-                "title": "Yes We Dance",
+                "title": "Dj Loris Barbieri",
                 "desc": "Musica dal vivo"
             }
         ]
@@ -38,13 +38,13 @@
         "date": "sabato 15 giugno",
         "events": [
             {
-                "date": "18:00",
+                "date": "19:00",
                 "title": "Apertura stand",
                 "desc": "Inizio della serata con l'apertura degli stand gastronomici"
             },
             {
-                "date": "21:00",
-                "title": "Audio 80",
+                "date": "21:30",
+                "title": "Alive",
                 "desc": "Musica dal vivo"
             }
         ]
@@ -55,11 +55,21 @@
             {
                 "date": "12:00",
                 "title": "Apertura stand gastronomici",
-                "desc": "Menu completo per il pranzo della domanica, con primi, secondi e lumache."
+                "desc": "Menu completo per il pranzo della domanica, con primi, secondi e lumache"
             },
             {
-                "date": "21:00",
-                "title": "Giuse e Alessia band",
+                "date": "15:00",
+                "title": "Dj EnzoBj",
+                "desc": "Musica dal vivo"
+            },
+            {
+                "date": "19:00",
+                "title": "Riapertura stand gastronomici",
+                "desc": "Inizio della serata con l'apertura degli stand gastronomici"
+            },
+            {
+                "date": "21:30",
+                "title": "Alta Marea",
                 "desc": "Musica dal vivo"
             }
         ]
@@ -68,13 +78,13 @@
         "date": "lunedì 17 giugno",
         "events": [
             {
-                "date": "18:00",
+                "date": "19:00",
                 "title": "Apertura stand",
                 "desc": "Inizio della serata con l'apertura degli stand gastronomici"
             },
             {
-                "date": "21:00",
-                "title": "Radici a sud",
+                "date": "21:30",
+                "title": "Fishbones",
                 "desc": "Musica dal vivo"
             }
         ]
