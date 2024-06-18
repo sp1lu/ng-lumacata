@@ -2,13 +2,13 @@
 ![Screenshot of the splash page](https://res.cloudinary.com/duuklscys/image/upload/v1718703844/Portfolio/tt6ednrm8gfcbjqbru1x.png)
 
 ## 📄 Index
-* [About](#🔰-about)
-* [Built with](#🔨-built-with)
+* [About](#-about)
+* [Built with](#-built-with)
 * * [Frameworks and libraries](#frameworks-and-libraries)
 * * [Languages](#languages)
 * * [Software](#software)
-* [Screenshot](#📷-screenshots)
-* [Contacts](#📮-contacts)
+* [Screenshot](#-screenshots)
+* [Contacts](#-contacts)
 
 ## 🔰 About
 Simple website for ***Lumacata Fabbriche 2024***, a summer festival organized annually in the Fabbriche district, Genoa, Italy.
