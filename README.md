@@ -1,27 +1,51 @@
-# NgLumacata
+# Lumacata
+![Screenshot of the splash page](https://res.cloudinary.com/duuklscys/image/upload/v1718703844/Portfolio/tt6ednrm8gfcbjqbru1x.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+## 📄 Index
+* [About](#🔰-about)
+* [Built with](#🔨-built-with)
+* * [Frameworks and libraries](#frameworks-and-libraries)
+* * [Languages](#languages)
+* * [Software](#software)
+* [Screenshot](#📷-screenshots)
+* [Contacts](#📮-contacts)
 
-## Development server
+## 🔰 About
+Simple website for ***Lumacata Fabbriche 2024***, a summer festival organized annually in the Fabbriche district, Genoa, Italy.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The website provides information regarding the opening and closing times of the food stands, as well as the program of the bands that will perform on stage. You can also find the menu of food and beverage at the festival and a map with the information needed to reach the location.
 
-## Code scaffolding
+Direct link to the project: [www.lumacatafabbriche.it](https://lumacatafabbriche.it/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🔨 Built with
+Here framework and libraries used for the realization of the project.
 
-## Build
+### Frameworks and libraries
+* [Angular 17](https://angular.dev/)
+* [Leaflet](https://leafletjs.com/)
+* [Firebase](https://firebase.google.com/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Languages
+* HTML
+* SCSS
+* TypeScript
 
-## Running unit tests
+### Software
+* Visual Studio Code
+* Adobe Illustrator
+* Figma
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📷 Screenshots
+![Splash screen](https://res.cloudinary.com/duuklscys/image/upload/v1718703844/Portfolio/tt6ednrm8gfcbjqbru1x.png)
+![Main menu](https://res.cloudinary.com/duuklscys/image/upload/v1718703847/Portfolio/vewdk1a4sgdrvmkkkpq1.png)
+![Food and beverage](https://res.cloudinary.com/duuklscys/image/upload/v1718703845/Portfolio/vitretjccdvlqycysltk.png)
+![Program](https://res.cloudinary.com/duuklscys/image/upload/v1718703846/Portfolio/wneakhoicjkdliq702oa.png)
+![Map](https://res.cloudinary.com/duuklscys/image/upload/v1718703853/Portfolio/qq33kmrxljtihtjs5uab.png)
 
-## Running end-to-end tests
+## 📮 Contacts
+Here some places where you can find me.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* [Portfolio](https://daviderivolta.com/)
+* [Dribbble](https://dribbble.com/spilu)
+* [Behance](https://www.behance.net/spilu)
+* [LinkedIn](https://www.linkedin.com/in/davide-rivolta/)
